@@ -46,7 +46,7 @@
     <platform name="android">
         <source-file src="src/android/CDVOrientation.java" target-dir="src/cordova/plugins/screenorientation/" />
 
-        <config-file target="res/xml/config.xml" parent="/*">
+        <config-file target="app/src/main/res/xml/config.xml" parent="/*">
             <feature name="CDVOrientation">
                 <param name="android-package" value="cordova.plugins.screenorientation.CDVOrientation" />
             </feature>
